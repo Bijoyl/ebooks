@@ -6,7 +6,7 @@ export async function login(loginDetails, regDetails) {
     }
     const response = await fetch(`${process.env.REACT_APP_HOST}/login`, loginCredentials);
     if(!response.ok){
-        throw{ message: response.statusText, ststus: response.ststus };
+        throw{ message: response.statusText, ststus: response.ststus }; // eslint-disable-line
     }
     const data = await response.json();
 
@@ -27,7 +27,7 @@ export async function register(regDetail) {
     }
     const response = await fetch(`${process.env.REACT_APP_HOST}/register`, requestOptions);
     if(!response.ok){
-        throw{ message: response.statusText, ststus: response.ststus };
+        throw{ message: response.statusText, ststus: response.ststus }; // eslint-disable-line
     }
     const data = await response.json();
 
@@ -42,5 +42,4 @@ export async function register(regDetail) {
 export function logOut() {
     sessionStorage.removeItem("token");
     sessionStorage.removeItem("ebid");
-    //sessionStorage.removeItem("username")
 }
