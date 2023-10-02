@@ -48,12 +48,8 @@ export const Hero = () => {
         </div>
         <div>
           <Link to="/products/10009"><img className="h-auto hover:scale-125 max-w-auto rounded-lg" src="/assets/images/10009.avif" alt="product#_image" /></Link>
-        </div>*
+        </div>
       </div>
-
-      {/*<div className="visual my-5 lg:max-w-xl">
-            <img className="rounded-lg max-h-auto" src={HeroImage} alt="ebookstore Hero Section" />
-        </div>*/}
     </section>
   )
 }
