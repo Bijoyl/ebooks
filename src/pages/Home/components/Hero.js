@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 export const Hero = () => {
   return (
-    <section className="flex flex-col lg:flex-row text-justify dark:text-slate-100 items-center">
+    <section className="flex flex-col lg:flex-row text-center dark:text-slate-100 items-center">
       <section className="flex flex-col bg-white dark:bg-gray-800">
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
           <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12 mb-8">
-            <h1 className="text-gray-900 dark:text-white text-3xl md:text-5xl font-extrabold mb-2">Buy digital version of your favorite book</h1>
+            <h1 className="text-gray-900 dark:text-white text-3xl md:text-5xl font-extrabold mb-2">Chekout digital version of some amazing books</h1>
             <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-6"></p>
             <Link to="/products" className="inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
               Store
