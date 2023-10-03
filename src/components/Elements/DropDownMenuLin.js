@@ -39,7 +39,7 @@ export const DropDownMenuLin = ({setDropDown}) => {
                 </li>
             </ul>
             <div className="py-1">
-                <span onClick={handleLogout} className="cursor-pointer block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Log out</span>
+                <span onClick={handleLogout} className="cursor-pointer block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"><Link to="/">Log out</Link></span>
             </div>
         </div>
     )
